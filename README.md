@@ -13,4 +13,7 @@ Citations:
 Code was developed using in-class examples, stack overflow to help with calculations, dictionaries, and code to help write the files to a txt document.
 Tutoring from Matthew Werth also helped with debugging code and helping add things to my for loop.
 AskBCS helped with debugging code and calculating change in profit/loss.
+W3Schools also helped with any set up, basic code, and gaps in knowledge.
+Python Tutorial. (n.d.). https://www.w3schools.com/python/
+
 
