@@ -13,7 +13,7 @@ current_month_pl = 0
 change_pl = 0
 
 #specify the file to open
-pybank_csv = os.path.join('..', "Resources", 'budget_data.csv')
+pybank_csv = os.path.join("Resources", 'budget_data.csv')
 
 #Open the file using 'read' mode. Specify the variable to hold the contents
 with open(pybank_csv, 'r') as csvfile:
@@ -72,7 +72,7 @@ print(f"Greatest Incerase in Profits: {high_month} (${high_change})")
 print(f"Greatest Decrease in Profits: {low_month} (${low_change})")
 
 #Write results into a text file
-budget_file = os.path.join("..", "Analysis", 'budget_analysis.txt')
+budget_file = os.path.join("Analysis", 'budget_analysis.txt')
 with open(budget_file, 'w') as outfile:
 
     outfile.write("Financial Analysis\n")
