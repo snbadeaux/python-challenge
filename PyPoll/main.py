@@ -48,18 +48,17 @@ with open(pypoll_csv, 'r') as csvfile:
     percent_ccs = round((ccs/total_votes)*100, 3)
     percent_dd = round((dd/total_votes)*100, 3)
     percent_rad = round((rad/total_votes)*100, 3)   
-    
-                 
+                        
 #print election results
 print("Election Results")
 print("-------------------------")
-print("Total Votes: {total_votes}")
+print(f"Total Votes: {total_votes}")
 print("-------------------------")
-print("Charles Casper Stockham: {percent_ccs} %{ccs}")
-print("Diana DeGette: {percent_dd} %{dd}")
-print("Raymon Anthony Doane: {percent_rad} %{rad}")
+print(f"Charles Casper Stockham: {percent_ccs} %{ccs}")
+print(f"Diana DeGette: {percent_dd} %{dd}")
+print(f"Raymon Anthony Doane: {percent_rad} %{rad}")
 print("-------------------------")
-print("Winner: Diane DeGette")
+print(f"Winner: Diane DeGette")
 print("-------------------------")
 
 #Write results into a text file
@@ -68,13 +67,13 @@ with open(election_file, 'w') as outfile:
 
     outfile.write("Financial Analysis\n")
     outfile.write("---------------------\n")
-    outfile.write("Total Votes: {total_votes}\n")
+    outfile.write(f"Total Votes: {total_votes}\n")
     outfile.write("---------------------\n")   
-    outfile.write("Charles Casper Stockham: {percent_ccs} %{ccs}\n")
-    outfile.write("Diana DeGette: {percent_dd} %{dd}\n")
-    outfile.write("Raymon Anthony Doane: {percent_rad} %{rad}\n")
+    outfile.write(f"Charles Casper Stockham: {percent_ccs} %{ccs}\n")
+    outfile.write(f"Diana DeGette: {percent_dd} %{dd}\n")
+    outfile.write(f"Raymon Anthony Doane: {percent_rad} %{rad}\n")
     outfile.write("---------------------\n")
-    outfile.write("Winner: Diane DeGette\n")
+    outfile.write(f"Winner: Diane DeGette\n")
     outfile.write("---------------------\n")
 
    
