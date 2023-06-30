@@ -58,7 +58,7 @@ print(f"Charles Casper Stockham: {percent_ccs} %{ccs}")
 print(f"Diana DeGette: {percent_dd} %{dd}")
 print(f"Raymon Anthony Doane: {percent_rad} %{rad}")
 print("-------------------------")
-print(f"Winner: Diane DeGette")
+print(f"Winner: Diana DeGette")
 print("-------------------------")
 
 #Write results into a text file
@@ -73,7 +73,7 @@ with open(election_file, 'w') as outfile:
     outfile.write(f"Diana DeGette: {percent_dd} %{dd}\n")
     outfile.write(f"Raymon Anthony Doane: {percent_rad} %{rad}\n")
     outfile.write("---------------------\n")
-    outfile.write(f"Winner: Diane DeGette\n")
+    outfile.write(f"Winner: Diana DeGette\n")
     outfile.write("---------------------\n")
 
    
